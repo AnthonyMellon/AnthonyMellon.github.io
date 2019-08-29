@@ -1,0 +1,98 @@
+.header {   
+    display: flex;
+    justify-content: center;
+    color: rgba(183, 0, 255, 0.568);
+    background-image: url("../img/WildWestSunSet.bmp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 100px;  
+    text-align: center;  
+}
+@media screen and (min-width: 0px)
+{
+    .headerImages
+    {
+        display: none;
+    }
+    .navigation
+    {
+        flex-direction: column;        
+    }
+}
+
+@media screen and (min-width: 1660px)
+{
+    .headerImages
+    {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .navigation
+    {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1000px)
+{
+    .navigation
+    {
+        flex-direction: row;
+    }
+}
+
+
+.inputs
+{
+    display: flex;
+    justify-content: left;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightgray;        
+}
+
+.navA
+{
+    text-decoration: none;
+    color: black;
+    background-color: beige;
+    font-weight: bold;         
+    border-style: solid;  
+    border-color: darkgray; 
+    font-size: 15pt;
+    padding: 5px;
+    margin: 10px;
+}
+
+.title
+{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bold;
+    background-color: rgb(196, 196, 196);
+}
+
+.image1
+{
+display: flex;
+justify-content: left;
+}
+.image2
+{
+    display: flex;
+    justify-content: right;
+}
