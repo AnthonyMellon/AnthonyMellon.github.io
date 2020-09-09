@@ -1,0 +1,30 @@
+.body {
+    background-image: url("./img/rainbow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flexbox;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;    
+    margin-top: 1%;    
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(0, 247, 255);
+    border: black;
+    border-style: solid;
+}
+
+.bodyText {
+    font-size: medium;
+}
+
+.headingText {
+    font-size: large;
+}
+
+.titleText {
+    font-size: xx-large;
+}
