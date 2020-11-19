@@ -1,5 +1,5 @@
 .body {
-    background-image: url("./img/rainbow.png");
+    background-image: url("./img/rainbowMove.gif");
     background-size: cover;
     background-repeat: repeat-y;
 }
@@ -15,6 +15,33 @@
     background-color: rgb(0, 247, 255);
     border: black;
     border-style: solid;
+    cursor:url(img/LCE.gif),auto;
+}
+
+.footer {
+    display: flexbox;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;    
+    margin-top: 1%;    
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(0, 247, 255);
+    border: black;
+    border-style: solid;
+    text-align: center;    
+}
+
+.link
+{
+    text-decoration: none;
+    color: hotpink; 
+    font-size: 25pt;   
+}
+
+.link:hover
+{
+    font-size: 30pt;
 }
 
 .bodyText {
